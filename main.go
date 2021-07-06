@@ -22,5 +22,5 @@ import (
 )
 
 func main() {
-	fmt.Printf("Hello World")
+	fmt.Println("Hello World")
 }
