@@ -15,12 +15,14 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
+
 package hello
 
-import (
-	"fmt"
-)
+import "testing"
 
-func main() {
-	fmt.Println(Hello())
+func TestHello(t *testing.T) {
+	want := "Hello, world."
+	if got := Hello(); got != want {
+		t.Errorf("Hello() = %q, want %q", got, want)
+	}
 }
