@@ -1,3 +1,3 @@
 module github.com/greenbone/go-project-template
 
-go 1.16
+go 1.18
