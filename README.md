@@ -2,7 +2,7 @@
 
 # golang-project-template <!-- omit in toc -->
 
-Python Project Template
+Golang Project Template
 
 ## Table of Contents <!-- omit in toc -->
 
